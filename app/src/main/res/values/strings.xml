@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Currency Exchange Rate</string>
+    <string name="lbl_currency_name">Currency Name</string>
+    <string name="str_select">Select</string>
+    <string name="lbl_currency_amount">Currency Amount</string>
+    <string name="hint_select_convert_amount">Select convert amount</string>
+    <string name="lbl_rate">Rate</string>
+    <string name="lbl_action">Action</string>
+    <string name="str_convert"><u>Convert</u></string>
+    <string name="title_select_currency">Select Currency</string>
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+    
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tlb_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CustomFont"
+            android:textSize="@dimen/text_title"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lblCurrencyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CustomFont"
+        android:layout_margin="@dimen/margin_3x"
+        android:textSize="@dimen/text_normal"
+        android:text="@string/lbl_currency_name"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/tlb_main"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCurrencyName"
+        android:layout_width="@dimen/margin_0"
+        android:layout_height="@dimen/size_40"
+        style="@style/CustomFont"
+        android:textSize="@dimen/text_normal"
+        android:hint="@string/lbl_currency_name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:gravity="center|start"
+        android:background="@drawable/bg_currency_txt_box"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:inputType="text"
+        android:paddingStart="@dimen/margin_3x"
+        android:paddingEnd="@dimen/margin_3x"
+        android:layout_margin="@dimen/margin_3x"
+        app:layout_constraintTop_toBottomOf="@id/lblCurrencyName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnSelect"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_40"
+        android:minHeight="@dimen/margin_0"
+        android:insetTop="@dimen/margin_0"
+        android:insetBottom="@dimen/margin_0"
+        app:cornerRadius="@dimen/margin_2x"
+        android:textAllCaps="false"
+        android:text="@string/str_select"
+        android:textColor="@color/white"
+        android:layout_marginEnd="@dimen/margin_3x"
+        app:layout_constraintTop_toTopOf="@id/tvCurrencyName"
+        app:layout_constraintBottom_toBottomOf="@id/tvCurrencyName"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/lblCurrencyAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CustomFont"
+        android:layout_margin="@dimen/margin_3x"
+        android:textSize="@dimen/text_normal"
+        android:text="@string/lbl_currency_amount"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/btnSelect"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtCurrencyAmount"
+        android:layout_width="@dimen/margin_0"
+        android:layout_height="@dimen/size_40"
+        style="@style/CustomFont"
+        android:textSize="@dimen/text_normal"
+        android:hint="@string/hint_select_convert_amount"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:gravity="center|start"
+        android:background="@drawable/bg_currency_txt_box"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:inputType="numberDecimal"
+        android:paddingStart="@dimen/margin_3x"
+        android:paddingEnd="@dimen/margin_3x"
+        android:layout_margin="@dimen/margin_3x"
+        app:layout_constraintTop_toBottomOf="@id/lblCurrencyAmount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnSelect"
+        />
+
+    <LinearLayout
+        android:id="@+id/lyRateHeader"
+        android:layout_width="@dimen/margin_0"
+        android:layout_height="@dimen/size_40"
+        android:layout_margin="@dimen/margin_3x"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtCurrencyAmount"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/CustomFont"
+            android:textSize="@dimen/text_small"
+            android:text="@string/lbl_currency_name"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/CustomFont"
+            android:textSize="@dimen/text_small"
+            android:text="@string/lbl_rate"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/CustomFont"
+            android:textSize="@dimen/text_small"
+            android:text="@string/lbl_action"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRate"
+        android:layout_width="@dimen/margin_0"
+        android:layout_height="@dimen/margin_0"
+        android:layout_marginStart="@dimen/margin_3x"
+        android:layout_marginEnd="@dimen/margin_3x"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lyRateHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tlb_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
