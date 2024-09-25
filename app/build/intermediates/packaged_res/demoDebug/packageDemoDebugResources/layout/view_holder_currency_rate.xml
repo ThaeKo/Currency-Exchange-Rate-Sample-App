@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lyRateHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_40"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCurrencyName"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/CustomFont"
+            android:textSize="@dimen/text_small"
+            android:text="@string/lbl_currency_name"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCurrencyRate"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/CustomFont"
+            android:textSize="@dimen/text_small"
+            android:text="@string/lbl_rate"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvConvert"
+            android:layout_width="@dimen/margin_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/CustomFont"
+            android:textSize="@dimen/text_small"
+            android:text="@string/str_convert"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

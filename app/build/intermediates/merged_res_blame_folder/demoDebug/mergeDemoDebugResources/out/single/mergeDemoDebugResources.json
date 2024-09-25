@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\layout_activity_currency.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\layout\\activity_currency.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\drawable_ic_back_circle.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\drawable\\ic_back_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\layout_view_holder_currency_rate.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\layout\\view_holder_currency_rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.yoma.currencyexchangerate.app-demoDebug-36:/layout_activity_main.xml.flat",
+        "source": "com.yoma.currencyexchangerate.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\drawable\\baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\drawable_bg_currency_txt_box.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\drawable\\bg_currency_txt_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\layout_view_holder_currency.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\layout\\view_holder_currency.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-demoDebug-36:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.6\\com.yoma.currencyexchangerate.app-main-40:\\mipmap-anydpi\\ic_launcher_round.xml"
+    }
+]
